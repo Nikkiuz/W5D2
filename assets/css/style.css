@@ -153,38 +153,7 @@ header {
    
 }
 
-@media screen and (min-width: 800px) {
-  header {
-    padding: 1em;
-  }
-}
 
-@media screen and (max-width: 1199px) {
-  header .brand img {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  header {
-    text-align: left;
-  }
-  header .brand,
-  header nav,
-  header .brand p {
-    display: inline-block;
-  }
-
-  header .brand {
-    width: 75%;
-  }
-  header .brand img {
-    vertical-align: middle;
-  }
-  header .brand p {
-    margin-bottom: 0;
-  }
-}
 
 header nav ul {
   margin: 0;
@@ -215,11 +184,7 @@ main {
   padding: 2em 1em;
   margin-bottom: 1.5em;
 }
-@media screen and (min-width: 700px) {
-  main {
-    padding: 2em;
-  }
-}
+
 
 section {
   background-color: #e3e3e3;
@@ -261,50 +226,6 @@ h1 + p {
   color: #a0a0a0;
 }
 
-@media screen and (max-width: 499px) {
-  p,
-  ul,
-  ol {
-    font-size: 1.4rem;
-  }
-
-  h2 {
-    font-size: 1.8rem;
-    font-weight: 700;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  p,
-  ul,
-  ol {
-    font-size: 1.2rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-    font-weight: 700;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  h1 {
-    font-size: 3.6rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-    line-height: 2;
-  }
-  section {
-    border-radius: 20px;
-  }
-}
 
 .imgLeft {
   margin-right: 20px;
@@ -312,6 +233,7 @@ h1 + p {
   outline: 4px solid #a02571;
   padding: 3px;
 }
+
 ul,
 ol {
   margin-left: 2em;
@@ -336,36 +258,13 @@ iframe {
   border-radius: 20px;
 }
 
-@media screen and (min-width: 1200px) {
-  iframe,
-  section {
-    display: inline-block;
-    width: 50%;
-    margin-inline: -2px;
-    vertical-align: middle;
-  }
 
-  iframe {
-    height: 267px;
-  }
-}
 
 /* TABELLE */
 table {
   margin-bottom: 2em;
 }
-@media screen and (min-width: 500px) {
-  table {
-    margin: 0 auto 2em;
-  }
-}
-@media screen and (min-width: 700px) {
-  table {
-    width: 70%;
-    margin-block-start: 5rem;
-    margin-block-end: 6rem;
-  }
-}
+
 
 caption {
   font-weight: bold;
@@ -406,20 +305,7 @@ button {
   color: white;
   font-weight: bold;
 }
-@media screen and (min-width: 500px) {
-  input {
-    display: inline-block;
-    width: 70%;
-  }
-}
-@media screen and (min-width: 700px) {
-  input {
-    padding: 15px;
-  }
-  button {
-    padding: 15px 30px;
-  }
-}
+
 
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
@@ -437,13 +323,7 @@ aside div {
   padding: 1em;
 }
 
-@media screen and (min-width: 1200px) {
-  aside div {
-    display: inline-block;
-    width: 33.333%;
-    margin-inline: -2px;
-  }
-}
+
 aside div p:last-child {
   margin-bottom: 0;
   font-size: 0.8em;
@@ -461,23 +341,133 @@ footer {
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 800px) {
-  footer {
-    padding: 1em 12em;
-  }
-}
 
 footer a {
   color: fuchsia;
 }
 
+/* MEDIA QUERY */
+
+@media screen and (max-width: 499px) {
+  p,
+  ul,
+  ol {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+
+@media screen and (min-width: 500px) {
+  input {
+    display: inline-block;
+    width: 70%;
+  }
+  table {
+    margin: 0 auto 2em;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  p,
+  ul,
+  ol {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    padding: 2em;
+  }
+  h1 {
+    font-size: 3.6rem;
+  }
+  table {
+    width: 70%;
+    margin-block-start: 5rem;
+    margin-block-end: 6rem;
+  }
+  input {
+    padding: 15px;
+  }
+  button {
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header {
+    padding: 1em;
+  }
+  footer {
+    padding: 1em 12em;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  header .brand img {
+    margin-bottom: 20px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
+  body {
+    line-height: 2;
+  }
+  section {
+    border-radius: 20px;
+  }
+  iframe,
+  section {
+    display: inline-block;
+    width: 50%;
+    margin-inline: -2px;
+    vertical-align: middle;
+  }
+
+  iframe {
+    height: 267px;
+  }
+  aside div {
+    display: inline-block;
+    width: 33.333%;
+    margin-inline: -2px;
+  }
   header,
   main,
   footer {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  header {
+    text-align: left;
+  }
+  header .brand,
+  header nav,
+  header .brand p {
+    display: inline-block;
+  }
+
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
   }
 }
 
