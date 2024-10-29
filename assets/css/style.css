@@ -65,6 +65,22 @@ header {
   position: absolute;
 }
 
+.article{
+  position: relative;
+  
+}
+
+.tag{
+  background-color: transparent;
+  position: absolute;
+
+  width: 10em;
+  right: -15px;
+  top: 0;
+}
+
+
+
 #divplus{
   border: solid 2px white;
   width: 5em;
