@@ -73,10 +73,9 @@ header {
 .tag{
   background-color: transparent;
   position: absolute;
-
-  width: 10em;
-  right: -15px;
-  top: 0;
+  width: 6em;
+  right: 7px;
+  top: 7px;
 }
 
 
