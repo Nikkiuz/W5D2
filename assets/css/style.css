@@ -41,17 +41,19 @@ header {
 
 #divunderline{
   position: relative;
+  white-space: nowrap;
 
 }
 
 #underline{
-  width: 95%;
+  width: 100%;
   position: absolute;
-  top: 108px;
-  right: 28px;
   opacity: 50%;
- 
+  top: 63px;
+  right: 2px;
 }
+ 
+
 
 #divh2{
   position: relative;
@@ -61,6 +63,28 @@ header {
 
 #divp{
   position: absolute;
+}
+
+#updiv{
+  border: solid 4px white;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.555);
+  position: fixed;
+  bottom: 15px;
+  right: 0px;
+  
+
+
+}
+
+#Up{
+  width:5em;
+  background-color: transparent;
+  padding: 10px;
+   
 }
 
 @media screen and (min-width: 800px) {
