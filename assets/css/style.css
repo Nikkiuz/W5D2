@@ -27,6 +27,40 @@ header {
   box-shadow: 0 3px 3px #444;
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
+  position: sticky; 
+  top: 0;
+  z-index: 1;
+  }
+
+
+
+#badge{
+    float: left;
+}
+
+
+#divunderline{
+  position: relative;
+
+}
+
+#underline{
+  width: 95%;
+  position: absolute;
+  top: 108px;
+  right: 28px;
+  opacity: 50%;
+ 
+}
+
+#divh2{
+  position: relative;
+  top: -36px;
+  width: 30%;
+}
+
+#divp{
+  position: absolute;
 }
 
 @media screen and (min-width: 800px) {
