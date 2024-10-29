@@ -65,19 +65,70 @@ header {
   position: absolute;
 }
 
-#updiv{
-  border: solid 4px white;
+#divplus{
+  border: solid 2px white;
   width: 5em;
   height: 5em;
   text-align: center;
   border-radius: 10%;
-  background-color: rgba(255, 255, 255, 0.555);
+  background-color: rgba(255, 255, 255, 0.664);
+  position: fixed;
+  bottom: 185px;
+  right: 0px;
+  box-shadow: 2px 3px 17px 7px rgba(230, 229, 229, 0.97);
+  backdrop-filter: blur(2px);
+  margin-bottom: 20px;
+
+}
+
+#plus{
+  width:5em;
+  background-color: transparent;
+  padding: 10px;
+
+}
+
+#buttons{
+  width: 100%;
+}
+
+#divcalendar{
+  border: solid 2px white;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.664);
+  position: fixed;
+  bottom: 90px;
+  right: 0px;
+  box-shadow: 2px 3px 17px 7px rgba(230, 229, 229, 0.97);
+  backdrop-filter: blur(2px);
+  margin-bottom: 20px;
+  
+
+}
+
+#calendar{
+  width:5em;
+  background-color: transparent;
+  padding: 10px;
+
+}
+
+#updiv{
+  border: solid 2px white;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.664);
   position: fixed;
   bottom: 15px;
   right: 0px;
+  box-shadow: 2px 3px 17px 7px rgba(230, 229, 229, 0.97);
+  backdrop-filter: blur(2px)
   
-
-
 }
 
 #Up{
